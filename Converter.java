@@ -20,4 +20,15 @@ public class Converter
         System.out.print(inch + " in = ");
         System.out.println(cm + " cm");
     }
+    
+    public void doubleDivExample() {
+        System.out.println( "Four thirds = " + (4.0 / 3.0) );
+    }
+    
+    public void formatExample() {
+        inch = 100;
+        cm = inch * CM_PER_INCH;
+
+        System.out.printf( "%d in = %f cm\n", inch, cm);
+    }
 }

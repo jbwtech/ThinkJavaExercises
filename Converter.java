@@ -25,10 +25,16 @@ public class Converter
         System.out.println( "Four thirds = " + (4.0 / 3.0) );
     }
     
-    public void formatExample() {
+    public void inchToCM() {
         inch = 100;
         cm = inch * CM_PER_INCH;
 
         System.out.printf( "%d in = %f cm\n", inch, cm);
+    }
+    
+    public void cmToInch() {
+        inch = (int)(cm / CM_PER_INCH);
+        
+        System.out.printf( "%f cm = %d in\n", cm, inch);
     }
 }

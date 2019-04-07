@@ -7,7 +7,7 @@
  */
 public class Hello
 {
-    int x;
+    static int x;
     /**
      * Constructor for objects of class Hello
      */
@@ -22,7 +22,7 @@ public class Hello
      * @param  y  a sample parameter for a method
      * @return    the sum of x and y
      */
-    public void main()
+    public static void main(String[] args)
     {
         System.out.println("\nThis is the public method \"main()\"");
         System.out.println("Hello World!");
@@ -30,7 +30,7 @@ public class Hello
         getx();
     }
     
-    private void getx() {
+    private static void getx() {
         System.out.println("\nThis is the private method \"getx()\"");
         System.out.print("x = ");
         System.out.println(x++);

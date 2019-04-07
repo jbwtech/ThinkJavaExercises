@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Convert
 {
-    public static void main()
+    public static void main(String[] args)
     {
         double cm;
         int feet, inches, remainder;
@@ -18,6 +18,6 @@ public class Convert
         feet = inches / IN_PER_FOOT;
         remainder = inches % IN_PER_FOOT;
         
-        System.out.printf("%d in = %d ft, %d in\n", cm, feet, remainder);
+        System.out.printf("%.2f cm = %d ft, %d in\n", cm, feet, remainder);
     }
 }

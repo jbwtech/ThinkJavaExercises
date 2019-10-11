@@ -4,20 +4,13 @@ import java.util.Random;
 public class Guess57
 {
 
-    public Guess57()
-    {
-    }
-
     public void main(String[] args) {
-        int number;
         Random random = new Random();
 
-        number = random.nextInt(100) + 1;
-
-        System.out.println("I'm thinking of a number betweeon 1 and 100");
+        System.out.println("\nI'm thinking of a number between 1 and 100");
         System.out.println("(including both.) Can you guess what it is?");
 
-	nextGuess( number );
+	nextGuess( random.nextInt(100) + 1 );
     }
 
     private void nextGuess(int number) {
@@ -26,11 +19,11 @@ public class Guess57
         int guess = in.nextInt();
 
 	if ( guess > number ) {
-		System.out.println("Too high.  Guess again.");
+		System.out.println("Too high.  Guess again.\n");
 	} else if ( guess < number ) {
-		System.out.println("Too low.  Guess again.");
+		System.out.println("Too low.  Guess again.\n");
 	} else {
-		System.out.println("You guessed it!");
+		System.out.println("You guessed it!\n");
 		return;
 	}
 

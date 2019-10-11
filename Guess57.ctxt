@@ -1,9 +1,7 @@
 #BlueJ class context
 comment0.target=Guess57
-comment1.params=
-comment1.target=Guess57()
-comment2.params=args
-comment2.target=void\ main(java.lang.String[])
-comment3.params=number
-comment3.target=void\ nextGuess(int)
-numComments=4
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=number
+comment2.target=void\ nextGuess(int)
+numComments=3

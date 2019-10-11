@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Sticks63
+comment1.params=
+comment1.target=Sticks63()
+comment2.params=args
+comment2.target=void\ main(java.lang.String[])
+comment3.params=a\ b\ c
+comment3.target=boolean\ canBeTriangle(int,\ int,\ int)
+numComments=4

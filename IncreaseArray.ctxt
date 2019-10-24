@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=IncreaseArray
+comment1.params=
+comment1.target=IncreaseArray()
+comment2.params=
+comment2.target=void\ main()
+comment3.params=originalArray\ x
+comment3.target=int[]\ addElement(int[],\ int)
+comment4.params=arr1\ arr2
+comment4.target=int[]\ catArrays(int[],\ int[])
+numComments=5
